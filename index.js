@@ -129,10 +129,10 @@ function endGame() {
   }
   window.removeEventListener('keydown', moveDodger);
 
-  START.innerHTML = 'Play again?'
-  START.style.display = 'inline'
+  START.innerHTML = 'Play again?';
+  START.style.display = 'inline';
 
-  return alert('YOU LOSE!')
+  return alert('YOU LOSE!');
 }
 
 function moveDodger(e) {
