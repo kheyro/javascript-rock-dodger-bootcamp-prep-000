@@ -98,7 +98,7 @@ function createRock(x) {
          window.requestAnimationFrame(moveRock);
        } else {
          ROCKS.shift();
-         rock.parentElement.removeChild(rock);
+         rock.remove();
        }
      }
   }
